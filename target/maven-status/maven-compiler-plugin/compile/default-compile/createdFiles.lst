@@ -1,0 +1,5 @@
+metier\ConnectTP.class
+metier\ICommands.class
+metier\IConnectTP.class
+metier\CommandsImpl.class
+service\CommandsService.class

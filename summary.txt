@@ -1,0 +1,24 @@
+Call/NewCall/{IP} http://localhost:8080/CSI/PERL/Call/NewCall/10.228.40.34?dest=ilm-6-pirl2@cisco.com
+Call/EndCall/{IP} http://localhost:8080/CSI/PERL/Call/EndCall/10.228.40.34?ID=20
+Call/AcceptCall/{IP}  http://localhost:8080/CSI/PERL/Call/AcceptCall/10.228.40.34?ID=
+Call/RejectCall/{IP}  http://localhost:8080/CSI/PERL/Call/RejectCall/10.228.40.34?ID=
+Call/Notify/{IP}     http://localhost:8080/CSI/PERL/Call/Notify/10.228.40.34
+
+Camera/Local/PositionSet/{IP} http://localhost:8080/CSI/PERL/Camera/Local/PositionSet/10.228.40.34
+Camera/Local/Move/{IP}   http://localhost:8080/CSI/PERL/Camera/Local/Move/10.228.40.34?CamId=1&MoveType=2&Dir=Up
+Camera/Local/PresetList/{IP}   http://localhost:8080/CSI/PERL/Camera/Local/PresetList/10.228.40.34
+Camera/Distant/Move/{IP}     http://localhost:8080/CSI/PERL/Camera/Distant/Move/10.228.54.115
+Camera/Distant/Stop/{IP}     http://localhost:8080/CSI/PERL/Camera/Distant/Stop/10.228.54.115
+
+CallLogs/{IP}       http://localhost:8080/CSI/PERL/CallLogs/10.228.40.34
+OpenedCall/{IP}     http://localhost:8080/CSI/PERL/OpenedCall/10.228.40.34
+PresetEdit/{IP}		http://localhost:8080/CSI/PERL/PresetEdit/10.228.40.34
+PresetStore/{IP}    http://localhost:8080/CSI/PERL/PresetStore/10.228.40.34?PId=4&LId=1&Name=csi
+PresetActivate/{IP}  
+
+Audio/IncreaseVolume/{IP}	http://localhost:8080/CSI/PERL/Audio/IncreaseVolume/10.228.40.34?Steps=10
+Audio/DecreaseVolume/{IP}	http://localhost:8080/CSI/PERL/Audio/DecreaseVolume/10.228.40.34?Steps=1
+Audio/Mute/{IP}		http://localhost:8080/CSI/PERL/Audio/Mute/10.228.40.34
+Audio/Unmute/{IP}	http://localhost:8080/CSI/PERL/Audio/Unmute/10.228.40.34
+
+Video/LocalDisplay/{IP}		http://localhost:8080/CSI/PERL/Video/LocalDisplay/10.228.40.34?Mode=True
